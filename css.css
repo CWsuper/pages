@@ -1,0 +1,255 @@
+body{
+	background:#2286c6;
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+	font-family: Arial; 
+}
+#container{
+	margin:0px auto;
+	width:780px;
+	height:600px;
+	/*width:100%;
+	height:100%;*/
+	text-align:left;
+	/*background:#123456;*/
+}
+#banner{
+	margin: 0px;
+	padding:0px 0px 0px 0px;
+	background-color:#789;
+    width:100%;
+    height:150px;
+}
+#banner img{
+	width:100%;
+	height:150px;
+}
+#globlink{
+	margin:0px;
+	padding:0px;
+}
+#globlink ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+#globlink ul li{
+	float:left;
+	text-align:center;
+	width:78px;
+	background-color:red;
+}
+#globlink ul li a{
+	display:block;
+	text-align:center;
+	padding:5px 0px 5px 0px;
+	margin:0px;
+}
+#globlink ul li a:link,#globlink ul li a:visited{
+	color:#004a87;
+	text-decoration:underline;
+}
+#globlink ul li a:hover{
+	color:#ffffff;
+	text-decoration: none;
+	background:url(logo.gif) no-repeat;
+}
+#left{
+	width:200px;
+	background-color:#ffffff;
+	margin:0px 0px;
+	padding:0px 0px 5px 0px;
+	color:#d8ecff;
+	float:left;
+}
+#weather{
+	/*background:url(pic_05.jpg) no-repeat;*/
+	margin:0px 5px;
+	background-color: #5ea6eb;
+} 
+#weather h3{
+	font-size:12px;
+	padding-top:15px;
+	text-align:center;
+}
+#weather ul{
+	margin:0px 5px 0px 5px;
+	padding:0px 0px;
+	list-style-type:none;
+}
+#weather ul li{
+	background:url(pic_05.jpg) no-repeat 0px 6px;
+	background-size:5px;
+	padding:0px 0px 5px 10px;
+}
+#today{
+  background-color:#5ea6eb;
+  margin:-10px 5px 0px 5px;
+  padding:0px 0px 10px 0px;
+}
+#today h3{
+   color:#003973;
+   font-size:12px;
+   padding:4px 0px 2px 15px;
+   margin:15px 0px 5px 0px;
+}
+#today ul{
+	 margin:-10px 0px 0px 0px;
+	 list-style-type:none;
+	 padding:0px 0px 0px 0px;
+}
+#today ul li{
+	text-align:center;
+}
+#today ul li img{
+	border:1px solid #ffffff; 
+	margin:8px 0px 0px 0px;
+}
+#today ul li a:link,#today ul li a:visited{
+    color:#d8ecff;
+    text-decoration:none;
+}
+#today ul li a:hover{
+	color:#ffff00;
+	text-decoration:underline;
+}
+#middle{
+	background-color:#ffffff;
+	width:400px;
+	margin:0px 2px 0px 2px;
+	padding:0px 0px 0px 0px;
+	color:#d8ecff;
+	float:left;
+}
+#midddle div{
+margin:0px 5px;
+}
+#middle h3{
+	margin:0px;
+	padding:0px;
+	height:41px;
+}
+#middle h3 span{
+	display:none;
+}
+#ghost img{
+	width:100%;
+	height:300px;
+}
+#beauty{
+    margin:15px 0px 0px 0px;
+    padding:0px;
+}
+#beauty h3{
+	background:url(logo.gif) no-repeat;
+}
+#beauty ul,#route ul{
+	list-style-type: none;
+	padding:0px;
+	margin:20px 1px 20px 20px;
+}#beauty ul li{
+	float:left;
+	text-align:center;
+	width:120px;
+	border:1px solid #4ab0ff;
+}
+#beauty ul li img{
+	width:120px;
+	height:150px;
+}
+#route{
+	clear:both;
+	margin:0px;
+	padding:5px 0px 15px 0px;
+}
+#route h3{
+background:url(logo2.gif) no-repeat;
+margin:6px 0px;
+}
+#route ul li{
+	padding:3px 0px 0px 30px;
+	background:url(pic_03.jpg) no-repeat 20px 5px;
+	background-size: 10px;
+	line-height:15px;
+}
+#route ul li a:link,#route ul li a:visited{
+    text-decoration:none;
+}
+#route ul li a:hover{
+	text-decoration:underline;
+	color:#ffff00;
+}
+#right{
+	width:176px;
+	background:#ffffff;
+	margin:0px;
+	padding:0px 0px 5px 0px;
+	float:left;
+}
+#right div{
+	margin:12px 5px;
+	background-color: #5ea6eb;
+}
+#right div h3{
+	font-size: 12px;
+	padding:4px 0px 2px 15px;
+	color:#003973;
+	margin:0px 0px 5px 0px;
+	background:url(pic_05.jpg) no-repeat 8px 10px;
+	background-size:5px;
+}
+#right p{
+   text-align:center;
+   margin:0px;
+   padding:2px 0px 5px 0px;
+
+}
+#right p img{
+	border:1px solid #ffffff;
+	width:90%;
+	height:100px;
+}
+#food ul,#life ul{
+	list-style-type:none;
+	padding:0px 0px 10px 0px;
+	margin:10px 10px 0px 10px;
+} 
+#food ul li,#life ul li{
+	background:url(pic_05.jpg) no-repeat 8px 10px;
+	background-size:5px;
+	padding:3px 0px 3px 12px;
+	border-bottom:1px dashed #eeeeee;
+} 
+#food ul li a:link,#food ul li a:visited,#life ul li a:link,#life ul li a:visited{
+    text-decoration:none;
+}
+#food ul li a:hover,#life ul li a:hover{
+	text-decoration:underline;
+	color:#ffff00;
+}
+#food,#life{
+	padding:25.5px 0px;
+	
+}
+#footer{
+	width:100%;
+	height:30px;
+	background-color:yellow;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	clear:both;
+}
+#footer p{
+	font-size: 14px;
+	text-align:center;
+	padding:5px 0px;
+	border:1px solid #3ea6eb;
+}
+#footer p a:link,#footer p a:visited{
+    text-decoration:none;
+}
+#footer p a:hover{
+	text-decoration:underline;
+	color:red;
+}
